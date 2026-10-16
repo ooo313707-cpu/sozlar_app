@@ -1,0 +1,53 @@
+# --- Sening shaxsiy ma'lumotlaring (ENG MUHIM) ---
+sozlar.db
+sozlar.db-wal
+sozlar.db-shm
+*.db
+backups/
+audio/
+sozlar_zaxira.csv
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+
+# --- Virtual muhit (kutubxonalar shu yerga o'rnatiladi) ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Test va keshlar ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- .exe yasash (PyInstaller) ---
+build/
+dist/
+*.manifest
+# SozlarIlovasi.spec ni qoldiramiz, u kerak
+
+# --- Muharrir va tizim fayllari ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Maxfiy kalitlar ---
+.env
+*.key
+secrets.*
+
+# --- Sening ichki ishchi fayllaring ---
+manus hujjatlari/
+AGENTS.md
+*.zip

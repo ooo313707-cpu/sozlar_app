@@ -1,0 +1,6 @@
+PySide6>=6.11
+fsrs>=6.3
+google-genai>=2.22
+edge-tts
+gTTS
+pyspellchecker
